@@ -1,0 +1,27 @@
+.main-tables-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-product-detail {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.plans-container-slider {
+  justify-content: center;
+}
+.main-tables-container {
+  overflow: hidden;
+}
+.plans-container-slider {
+  overflow: hidden;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 1100px) {
+  .main-product-detail {
+    flex-wrap: none;
+  }
+}
